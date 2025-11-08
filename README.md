@@ -1,45 +1,81 @@
-teste1: instruções
+🧪 Teste 1: Cálculo de Média de Aluno(a)
 
-1. Crie um programa que ofereça as as seguintes opções:
+🎯 Objetivo
+Criar um programa que ofereça ao usuário as seguintes opções:
 
-    1. Calcular a média de um(a) aluno(a)
+Calcular a média de um(a) aluno(a)
 
-    2. Sair
+Sair
 
-Na opção 1, o programa deve ler do teclado o número da matrícula, o nome da disciplina e as três notas dele(a) nessa disciplina. A matrícula e o nome da disciplina devem ficar armazenados em strings e as notas devem ficar armazenadas em um array. 
+📝 Funcionalidade
+- Opção 1: Calcular média
 
-APÓS receber TODAS as informações, o programa deve verificar se os dados preenchem os seguintes requisitos: 
+Solicitar ao usuário:
 
-- a matrícula só pode conter dígitos
-- o nome da disciplina só pode conter letras
-- todas as notas precisam estar entre 0 e 10
+Número da matrícula (string)
 
-Se TODOS os requisitos forem atendidos, o programa deve mostrar na tela o número de matrícula, o nome da disciplina, todas as notas e a média simples do(a) aluno(a).
+Nome da disciplina (string)
 
-Se ALGUM dos requisitos acima NÃO for atendido, o programa deve mostrar uma mensagem de erro na tela e deve retornar ao menu inicial.
+Três notas (array de números)
 
-Na opção 2 o programa deve encerrar a execução.
+Validar os dados:
 
-teste2: instruções
+Matrícula deve conter apenas dígitos
 
-2. Construa um programa que simule a análise de currículos para vagas de programador(a). O programa será usado no setor de RH de uma empresa. 
+Nome da disciplina deve conter apenas letras
 
-Devem ser mostradas as opções:
+Todas as notas devem estar entre 0 e 10
 
-    1. Analisar resumo
+Se todos os dados forem válidos:
 
-    2. Sair
+Exibir matrícula, nome da disciplina, notas e média simples
 
-Na opção 1 o programa deve solicitar a) o telefone do candidato e b) o resumo do currículo. O programa deve transformar todas as letras em maiúsculas e deve analisar o texto buscando pelas seguintes palavras-chave:  "PYTHON", "JAVA", "C++", "C#".
+Se algum dado for inválido:
 
-O programa deve exibir todas as palavras-chave encontradas no resumo. Caso não seja encontrada nenhuma palavra-chave, deve ser exibida a mensagem "Não foi encontrada nenhuma palavra-chave.".
+Exibir mensagem de erro
 
-Se for encontrada pelo menos uma palavra-chave, deve ser impressa na tela a mensagem: "Candidato recomendado, prosseguindo para agendamento de entrevista." Considere que o sistema enviará automaticamente uma mensagem para o(a) candidato(a), isto é, sem a necessidade de qualquer ação do RH.
+Retornar ao menu inicial
 
-Do contrário, deve ser mostrada na tela a mensagem: "Candidato não-recomendado".
+- Opção 2: Sair
 
-Após a análise o programa volta ao menu inicial.
+Encerrar a execução do programa
 
-Na opção 2 o programa encerra a execução.
+🧪 Teste 2: Análise de Currículos para Vagas de Programador(a)
 
-Use somente strings para armazenar os dados do candidato.
+🎯 Objetivo
+Criar um programa para uso no setor de RH que analise resumos de currículos com base em palavras-chave.
+
+📝 Funcionalidade
+- Opção 1: Analisar resumo
+
+Solicitar ao usuário:
+
+Telefone do(a) candidato(a) (string)
+
+Resumo do currículo (string)
+
+Processar o texto:
+
+Converter todas as letras para maiúsculas
+
+Buscar palavras-chave: "PYTHON", "JAVA", "C++", "C#"
+
+Exibir resultado:
+
+Se nenhuma palavra-chave for encontrada:
+
+Mostrar: "Não foi encontrada nenhuma palavra-chave."
+
+Mostrar: "Candidato não-recomendado"
+
+Se ao menos uma palavra-chave for encontrada:
+
+Mostrar todas as palavras-chave encontradas
+
+Mostrar: "Candidato recomendado, prosseguindo para agendamento de entrevista."
+
+- Opção 2: Sair
+
+Encerrar a execução do programa
+
+⚠️ Todos os dados do(a) candidato(a) devem ser armazenados usando apenas strings.
